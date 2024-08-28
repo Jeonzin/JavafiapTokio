@@ -1,0 +1,34 @@
+package logica.aulas.aula05;
+
+import java.util.Scanner;
+
+public class Tipos {
+
+	public static void main(String[] args) {
+		
+		float preco = 10.99f;
+		float preco2 = (float) 12.90;
+		
+		System.out.println("float1: " + preco);
+		System.out.println("float2: " + preco2);
+		
+		int precoInteiro = (int) 2.5;
+		System.out.println("valor inteiro: " + precoInteiro);
+		
+		int numeroX = 6;
+		double numeroXdouble = numeroX;
+		System.out.println(numeroX);
+		System.out.println(numeroXdouble);
+
+		Scanner sc = new Scanner(System.in);
+		
+		System.err.println(" ");
+		System.out.println("digite um numero: ");
+		int numeroInteiro = (int) sc.nextDouble();
+		Integer numInteiroClass = numeroInteiro;
+		
+		System.out.println(numeroInteiro);
+		System.out.println(numInteiroClass.getClass());
+	}
+
+}

@@ -13,6 +13,6 @@ public class Ex2 {
 		double dou = 12435.034;
 		String str2 = Double.toString(dou);
 		
-		System.out.println("numero 1: " + str + " numero 2: " + str1 + " numero 3: " + str2);
+		System.out.println("numero 1: " + str + " número 2: " + str1 + " numero 3: " + str2);
 	}
 }
