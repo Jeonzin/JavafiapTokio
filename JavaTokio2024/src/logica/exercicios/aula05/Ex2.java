@@ -7,7 +7,7 @@ public class Ex2 {
 		int in = 10;
 		String str = Integer.toString(in);
 		
-		float flo = 253434;
+		float flo = 253434f;
 		String str1 = Float.toString(flo);
 		
 		double dou = 12435.034;

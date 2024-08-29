@@ -8,14 +8,17 @@ public class Ex3 {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		char generos;
-		generos = 'M' + 'F' + 'O' + 'N';
+		System.out.println("digite seu nome: ");
+		String nome = sc.nextLine();
+		System.out.println("selecione o seu genero da seguinte forma: ");
+		System.out.println("[M] Masc");
+		System.out.println("[F] Fem");
+		System.out.println("[O] Outro");
+		System.out.println("[N] N responder");
+		
+		char generos = sc.nextLine().charAt(0);
 	    
-		System.out.println("qual seu nome e seu genero? ");
-		
-		generos = sc.next().charAt(0);
-		
-		System.out.println(generos);
+		System.out.println("Ola, " + nome + "! vc escolheu a seguinte opcao de genero: " +  generos);
 		
 	}
 
