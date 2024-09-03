@@ -20,7 +20,7 @@ public class Ex10 {
 		int diastotal = (anos * 365) + (meses * 30) + dias;
 		
 		System.out.println("=====================================");
-		System.out.println(diastotal);
+		System.out.println("quantidade de dias vivido: "+ diastotal);
 		
 		sc.close();
 	}

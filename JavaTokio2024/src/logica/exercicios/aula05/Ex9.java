@@ -16,8 +16,8 @@ public class Ex9 {
 		int unidade = number % 10;
 		
 		System.out.println("==========================");
-		System.out.println(centena);
-		System.out.println(dezena);
-		System.out.println(unidade);
+		System.out.println("centena: " + centena);
+		System.out.println("dezena: " + dezena);
+		System.out.println("unidade: " + unidade);
 	}
 }
