@@ -1,5 +1,6 @@
 package logica.exercicios.aula06;
 
+import java.awt.SystemColor;
 import java.util.Scanner;
 
 public class Ex5 {
@@ -9,10 +10,10 @@ public class Ex5 {
 		Scanner sc = new Scanner(System.in);
 
 		System.out.println("Digite um numero: ");
-		int n1 = Integer.parseInt(sc.nextLine());
+		double n1 = Integer.parseInt(sc.nextLine());
 		
 		System.out.println("Digite o segundo numero: ");
-		int n2 = Integer.parseInt(sc.nextLine());
+		double n2 = Integer.parseInt(sc.nextLine());
 		
 		System.out.println("Digite qual operacao deseja utilizar");
 		System.out.println("[+] [-] [*] [/]");
@@ -36,8 +37,7 @@ public class Ex5 {
 				System.out.println(n1 / n2);
 		    break;
 		 default:
-			 System.out.println("Operacao digitada Invalida");
-			 
+			 System.err.println("Operacao digitada Invalida");
 			 
 			sc.close();
 		}

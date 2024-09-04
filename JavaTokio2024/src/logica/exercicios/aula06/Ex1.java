@@ -11,8 +11,6 @@ public class Ex1 {
 		} else {
 			System.out.println("impar");
 		}
-		
-		
 	}
 
 }
