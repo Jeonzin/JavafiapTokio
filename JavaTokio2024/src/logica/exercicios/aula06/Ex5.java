@@ -8,23 +8,38 @@ public class Ex5 {
 		
 		Scanner sc = new Scanner(System.in);
 
-		System.out.println("digite um numero: ");
+		System.out.println("Digite um numero: ");
 		int n1 = Integer.parseInt(sc.nextLine());
 		
-		System.out.println("digite o segundo numero: ");
+		System.out.println("Digite o segundo numero: ");
 		int n2 = Integer.parseInt(sc.nextLine());
 		
-		System.out.println("digite qual operacao deseja utilizar");
+		System.out.println("Digite qual operacao deseja utilizar");
+		System.out.println("[+] [-] [*] [/]");
 		char operacao = sc.nextLine().charAt(0); 
 
 		switch (operacao) {
 			case '+': 
-				System.out.println();
-				
-			
-
-				
-		default:
+				System.out.println("Resultado da operacao: ");
+				System.out.println(n1 + n2);
+			break;
+			case '-':
+				System.out.println("Resultado da operacao: ");
+				System.out.println(n1 - n2);
+			break;
+			case '*':
+				System.out.println("Resultado da operacao");
+				System.out.println(n1 * n2);
+		    break;
+			case '/':
+				System.out.println("Resultado da operacao");
+				System.out.println(n1 / n2);
+		    break;
+		 default:
+			 System.out.println("Operacao digitada Invalida");
+			 
+			 
+			sc.close();
 		}
 	}
 
